@@ -6,8 +6,8 @@ namespace futuretech
     {
         static int Main(string[] args)
         {
-            Console.WriteLine("ÎÒÃÇ±ØĞëÏÈÈ·ÈÏÄúµÄÉí·İ");
-            Console.WriteLine("ÇëÊäÈëÄãµÄÉí·İ±êÊ¶Âë");
+            Console.WriteLine("æˆ‘ä»¬å¿…é¡»å…ˆç¡®è®¤æ‚¨çš„èº«ä»½");
+            Console.WriteLine("è¯·è¾“å…¥ä½ çš„èº«ä»½æ ‡è¯†ç ");
             string id;
             string ot;
             id = Console.ReadLine();
@@ -20,12 +20,12 @@ namespace futuretech
                     ot = "user";
                     break;
                 default:
-                    Console.WriteLine("ÄúÃ»ÓĞ×ã¹»µÄä¯ÀÀÈ¨ÏŞ");
-                    Console.WriteLine("°´ENTER¼üÍË³ö");
+                    Console.WriteLine("æ‚¨æ²¡æœ‰è¶³å¤Ÿçš„æµè§ˆæƒé™");
+                    Console.WriteLine("æŒ‰ENTERé”®é€€å‡º");
                     Console.ReadLine();
                     return 0;
             }
-            Console.WriteLine("»¶Ó­," + ot);
+            Console.WriteLine("æ¬¢è¿," + ot);
             string input;
             string output;
             input = Console.ReadLine();
@@ -34,22 +34,22 @@ namespace futuretech
                 switch(input)
                 {
                     case "":
-                        output = "³Â¿Âî£";
+                        output = "é™ˆæŸ¯ç¿";
                         break;
                     case "start":
-                        output = "³ÂÈğÈ¨";
+                        output = "é™ˆç‘æƒ";
                         break;
                     case "begin":
-                        output = "ÍôÒâÁÖ";
+                        output = "æ±ªæ„æ—";
                         break;
                     default:
                         return 0;
                 }
-                Console.WriteLine("Çë" + output+"»Ø´ğ");
+                Console.WriteLine("è¯·" + output+"å›ç­”");
             }
             else if(ot=="user")
             {
-                Console.WriteLine("ÕıÔÚ¿ª·¢");//×¢Òâ£¬´Ë¹¦ÄÜ½«ÔÚV0.0.2°æ±¾ÍÆ³ö
+                Console.WriteLine("æ­£åœ¨å¼€å‘");//æ³¨æ„ï¼Œæ­¤åŠŸèƒ½å°†åœ¨V0.0.2ç‰ˆæœ¬æ¨å‡º
             }
             Console.ReadLine();
             return 0;
